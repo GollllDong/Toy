@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/toy.main.iml" filepath="$PROJECT_DIR$/.idea/modules/toy.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/admin/Toy.admin.main.iml" filepath="$PROJECT_DIR$/.idea/modules/admin/Toy.admin.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/Toy.common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/common/Toy.common.main.iml" />
     </modules>
   </component>
 </project>

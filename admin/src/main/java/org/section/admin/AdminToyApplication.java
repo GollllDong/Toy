@@ -1,13 +1,13 @@
-package com.toyProject.toy;
+package org.section.admin;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ToyApplication {
+public class AdminToyApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ToyApplication.class, args);
+		SpringApplication.run(AdminToyApplication.class, args);
 	}
 
 }

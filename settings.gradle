@@ -1,1 +1,4 @@
-rootProject.name = 'toy'
+rootProject.name = 'Toy'
+
+include 'admin'
+include 'common'
