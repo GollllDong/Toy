@@ -5,13 +5,13 @@ spring:
   profiles:
     active: local
 
-    datasource:
-      username: root
-      password: 12345678
-      url: jdbc:mysql://localhost:3306/Toy
-      driver-class-name: org.mySql.Driver
-    jpa:
-      hibernate:
-        ddl-auto: none
-      show-sql: true
-      open-in-view: false
+  datasource:
+    username: root
+    password: 12345678
+    url: jdbc:mysql://localhost:3306/Toy
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+    open-in-view: false
