@@ -12,8 +12,8 @@ import java.time.LocalDateTime;
 @Entity
 @Getter
 @Setter
-@Table(name = "CT_NORMAL_INFO")
-public class NormalInfo extends BaseEntity {
+@Table(name = "CT_DOCUMENT")
+public class Document extends BaseEntity {
 
     @Id
     @Column(name = "NO")
@@ -29,6 +29,9 @@ public class NormalInfo extends BaseEntity {
 
     @Column(name = "CONTENT")
     private String content;
+
+    @Column(name = "STATUS")
+    private String status;
 
     @Column(name = "RESERVE_YN")
     @Enumerated(EnumType.STRING)
